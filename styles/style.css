@@ -76,11 +76,13 @@
 }
 
 .header__title {
+  font-family: var(--accent-font);
   font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
   text-decoration: none;
 }
 
 .header__description {
+  font-family: var(--accent-font);
   font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
   margin-block-end: 4px;
 }
@@ -92,13 +94,14 @@
 }
 
 .card__title {
+  font-family: var(--main-font);
   border: 2px solid var(--border-color);
   font-size: 18px;
-  font-weight: 700;
+  font-weight: var(--header-weight);
   line-height: normal;
   font-style: normal;
   padding: 5px 22px 5px 8px;
-  font-variation-settings: 'wght' 700;
+  font-variation-settings: 'wght' var(--header-weight);
 }
 
 .card__image {
@@ -180,10 +183,12 @@
 }
 
 .card__content-text {
+  font-family: var(--main-font);
   color: var(--accent-color);
   font-size: 18px;
-  font-weight: 400;
   line-height: 21px;
+  font-weight: var(--text-weight);
+  font-variation-settings: 'wght' var(--header-weight);
 }
 
 .card__content-text:nth-child(1) {
@@ -310,6 +315,7 @@
 }
 
 .theme-menu__button {
+  font-family: var(--accent-font);
   border: none;
   line-height: normal;
   font-style: normal;
@@ -378,6 +384,7 @@
 }
 
 .button-save-text {
+  font-family: var(--accent-font);
   mix-blend-mode: difference;
   font-size: 14px;
   font-weight: 400;
@@ -421,6 +428,7 @@
 }
 
 .dialog__flex-text {
+  font-family: var(--accent-font);
   line-height: 1.5;
   white-space: normal;
   max-inline-size: 234px;
