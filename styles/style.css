@@ -76,13 +76,13 @@
 }
 
 .header__title {
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), sans-serif;
   font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
   text-decoration: none;
 }
 
 .header__description {
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), sans-serif;
   font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
   margin-block-end: 4px;
 }
@@ -94,7 +94,7 @@
 }
 
 .card__title {
-  font-family: var(--main-font);
+  font-family: var(--main-font), sans-serif;
   border: 2px solid var(--border-color);
   font-size: 18px;
   font-weight: var(--header-weight);
@@ -148,7 +148,7 @@
 
 .card__image-label {
   position: absolute;
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), sans-serif;
   font-size: 14px;
   font-weight: 400;
   top: 25px;
@@ -183,12 +183,12 @@
 }
 
 .card__content-text {
-  font-family: var(--main-font);
+  font-family: var(--main-font), sans-serif;
   color: var(--accent-color);
   font-size: 18px;
   line-height: 21px;
   font-weight: var(--text-weight);
-  font-variation-settings: 'wght' var(--header-weight);
+  font-variation-settings: 'wght' var(--text-weight);
 }
 
 .card__content-text:nth-child(1) {
@@ -240,7 +240,7 @@
 
 .button__text {
   font-size: 14px;
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), sans-serif;
   color: var(--mix-blend-color);
   font-weight: 400;
   font-style: normal;
@@ -250,7 +250,7 @@
 
 .button__text-rembemer {
   font-size: 14px;
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), sans-serif;
   color: var(--mix-blend-color);
   mix-blend-mode: difference;
   font-weight: 400;
@@ -315,7 +315,7 @@
 }
 
 .theme-menu__button {
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), sans-serif;
   border: none;
   line-height: normal;
   font-style: normal;
@@ -347,7 +347,7 @@
   padding: 30px;
   background-color: var(--bg-color);
   color: var(--accent-color);
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), sans-serif;
   font-size: 14px;
   font-style: normal;
   max-inline-size: 357px;
@@ -384,7 +384,7 @@
 }
 
 .button-save-text {
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), sans-serif;
   mix-blend-mode: difference;
   font-size: 14px;
   font-weight: 400;
@@ -428,7 +428,7 @@
 }
 
 .dialog__flex-text {
-  font-family: var(--accent-font);
+  font-family: var(--accent-font), sans-serif;
   line-height: 1.5;
   white-space: normal;
   max-inline-size: 234px;
